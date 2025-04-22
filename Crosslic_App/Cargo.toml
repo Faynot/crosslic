@@ -1,0 +1,21 @@
+[package]
+name = "Crosslic_App"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full", "macros"] }
+warp = "0.3"
+web-view = "0.7"
+futures-util = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.3", features = ["v4"] }
+tokio-tungstenite = "0.20"
+parking_lot = "0.12"
+lazy_static = "1.4.0"
+crosslic = { path = "../crosslic" }
+crosslic-macro = { path = "../crosslic-macro" }
+include_dir = "0.7"
+mime_guess = "2.0"
+tempfile = "3.3"

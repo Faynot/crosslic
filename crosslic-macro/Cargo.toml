@@ -1,0 +1,22 @@
+[package]
+description = "Proc macro helpers for the Crosslic framework"
+edition = "2024"
+license = "MIT"
+name = "crosslic-macro"
+readme = false
+version = "0.1.0"
+
+[dependencies.proc-macro2]
+version = "1.0"
+
+[dependencies.quote]
+version = "1.0"
+
+[dependencies.syn]
+features = ["full"]
+version = "1.0"
+
+[lib]
+name = "crosslic_macro"
+path = "src/lib.rs"
+proc-macro = true
