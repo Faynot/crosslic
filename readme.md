@@ -45,5 +45,5 @@ To get started with Crosslic, follow these simple steps:
 
 - [ ] Create CLI
 - [ ] npm, yarn support
-- [ ] react native, vue, angular support
+- [ ] react native, vue, angular support (in CLI)
 - [ ] Completely end development mode
