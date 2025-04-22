@@ -77,6 +77,7 @@ import { api } from "./lib/api"; // path to frontend/src/lib/api
 
   const command = async () => {
     const result: any = await api.call.command(...your args...);
+}
 ```
 
 
