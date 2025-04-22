@@ -39,6 +39,43 @@ To get started with Crosslic, follow these simple steps:
    ./build.sh
    ```
 
+# How to create and use command
+
+go to project and open Crosslic_App/src/commands.rs:
+```
+use crosslic::command;
+
+//===================
+//      Commands
+//===================
+
+// Simple command examples
+
+#[command]
+pub fn sum(a: i32, b: i32) -> Result<i32, String> {
+    Ok(a + b)
+}
+
+#[command]
+pub fn greet(name: String) -> Result<String, String> {
+    Ok(format!("Hello, {}!", name))
+}
+
+```
+
+Create a team using a template:
+```
+#[command]
+pub fn command(a: i32, b: i32) -> ... {
+    // any logic
+}
+```
+
+Run in frontend:
+```
+
+```
+
 
 
 # Todo
