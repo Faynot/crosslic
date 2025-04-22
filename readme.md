@@ -66,14 +66,17 @@ pub fn greet(name: String) -> Result<String, String> {
 Create a team using a template:
 ```
 #[command]
-pub fn command(a: i32, b: i32) -> ... {
+pub fn command(...your args...) -> ... {
     // any logic
 }
 ```
 
 Run in frontend:
 ```
+import { api } from "./lib/api"; // path to frontend/src/lib/api
 
+  const command = async () => {
+    const result: any = await api.call.command(...your args...);
 ```
 
 
