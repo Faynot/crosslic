@@ -1,0 +1,12 @@
+{
+  "name": "Crosslic App",
+  "version": "0.1.0",
+  "description": "A cross-platform application",
+  "author": "Faynot",
+  "license": "MIT",
+  "engine": "webview",
+  "resolution": ["1024", "768"],
+  "websocket": "/ws",
+  "url": "127.0.0.1:3030",
+  "client_start": "npm run --prefix /home/faynot/crosslic/frontend dev"
+}
