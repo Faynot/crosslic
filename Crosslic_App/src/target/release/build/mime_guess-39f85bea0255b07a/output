@@ -1,1 +1,0 @@
-cargo:rustc-env=MIME_TYPES_GENERATED_PATH=/home/faynot/crosslic/Crosslic_App/target/release/build/mime_guess-39f85bea0255b07a/out/mime_types_generated.rs
